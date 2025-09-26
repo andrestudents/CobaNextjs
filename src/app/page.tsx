@@ -45,20 +45,20 @@ export default function Home() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative z-10">
+      {/* <section className="relative z-10">
         <Hero />
-      </section>
+      </section> */}
 
       {/* Transition element */}
-      <div className="relative z-10 h-32 bg-gradient-to-b from-transparent via-slate-900/50 to-gray-100" />
+
 
       {/* BackgroundLinesDemo Section */}
-      <section className="relative z-10 bg-gray-100">
+      <section className="relative z-10 mt-10">
         <BackgroundLinesDemo />
       </section>
 
       {/* Additional sections for more content */}
-      <section className="relative z-10 py-20 bg-gradient-to-r from-gray-50 to-gray-100">
+      {/* <section className="relative z-10 py-20 bg-gradient-to-r from-gray-50 to-gray-100">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8 bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

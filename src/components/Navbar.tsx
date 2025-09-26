@@ -25,14 +25,14 @@ export default function Navbar() {
 
     return (
         <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled
-                ? "bg-gray-900/95 backdrop-blur-md shadow-lg shadow-purple-500/10"
-                : "bg-gray-900/90 backdrop-blur-sm"
+            ? "bg-gray-900/95 backdrop-blur-md shadow-lg shadow-purple-500/10"
+            : "bg-gray-900/90 backdrop-blur-sm"
             }`}>
             <div className="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto">
                 {/* Logo */}
                 <div className="group cursor-pointer">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
-                        🚀 MyProject
+                    <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400  bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
+                        MyProject🚀
                     </div>
                     <div className="h-0.5 w-0 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full transition-all duration-300 group-hover:w-full"></div>
                 </div>

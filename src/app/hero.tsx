@@ -55,12 +55,30 @@ export default function Hero() {
                     {/* Main heading with gradient text */}
                     <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-400 bg-clip-text text-transparent animate-gradient-x leading-tight">
                         Welcome to
-                        <br />
-                        <span className="relative">
-                            MyProject
-                            <div className="absolute -top-4 -right-4 text-4xl animate-bounce">🚀</div>
-                        </span>
                     </h1>
+
+                    {/* Hyperliquid Animation */}
+                    <div className={`transform transition-all duration-1000 ease-out delay-900 ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+                        }`}>
+                        <div className="relative mb-12 flex justify-center">
+                            <div className="relative">
+                                {/* Glow effect behind image */}
+                                <div className="absolute inset-0 bg-emerald-500/20 rounded-full blur-3xl scale-150 animate-pulse-slow" />
+                                <div className="relative z-10 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-emerald-400/30 backdrop-blur-sm">
+                                    <img
+                                        src="blob_green.gif"
+                                        alt="Animated travel visualization"
+                                        className="w-full h-full object-cover animate-float"
+                                    />
+                                </div>
+                                {/* Floating particles around image */}
+                                <div className="absolute top-4 -right-4 w-4 h-4 bg-emerald-400 rounded-full animate-ping opacity-60" />
+                                <div className="absolute -bottom-2 -left-6 w-3 h-3 bg-cyan-400 rounded-full animate-bounce opacity-70" />
+                                <div className="absolute top-1/2 -left-8 w-2 h-2 bg-blue-400 rounded-full animate-pulse opacity-50" />
+                            </div>
+                        </div>
+                    </div>
+
 
                     {/* Subtitle with typewriter effect */}
                     <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300 leading-relaxed font-light">

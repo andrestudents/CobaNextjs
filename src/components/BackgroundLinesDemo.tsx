@@ -45,7 +45,7 @@ export function BackgroundLinesDemo() {
                         <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x">
                             Sanjana Airlines
                         </span>
-                        <div className="inline-block ml-4 text-6xl md:text-8xl animate-bounce-slow">✈️</div>
+                        <div className="inline-block  ">✈️</div>
                     </h1>
                 </div>
 
@@ -81,7 +81,7 @@ export function BackgroundLinesDemo() {
                 </div>
 
                 {/* Tech Stack Section */}
-                <div className={`transform transition-all duration-1000 ease-out delay-1100 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+                {/* <div className={`transform transition-all duration-1000 ease-out delay-1100 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
                     }`}>
                     <div className="bg-black/20 backdrop-blur-xl rounded-3xl p-8 border border-white/10 mb-8">
                         <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -91,7 +91,7 @@ export function BackgroundLinesDemo() {
                             Building the future with Next.js + Tailwind + TypeScript
                         </p>
 
-                        {/* Tech badges */}
+                     
                         <div className="flex flex-wrap gap-4 justify-center">
                             {[
                                 { name: "Next.js", color: "from-gray-400 to-gray-600", icon: "⚡" },
@@ -110,7 +110,7 @@ export function BackgroundLinesDemo() {
                             ))}
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Call to action buttons */}
                 <div className={`flex flex-col sm:flex-row gap-4 justify-center items-center transform transition-all duration-1000 ease-out delay-1300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
